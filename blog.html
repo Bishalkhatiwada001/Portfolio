@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./custom.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div class="grid-container blog">
+      <header class="header">
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="blog.html" class="active">Blog</a>
+            </li>
+            <li>
+              <a href="site-report.html">sitereport</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <input type="checkbox" id="toggle-menu" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="40"
+            height="40"
+            viewBox="0 0 172 172"
+            style="fill: #000000"
+          >
+            <g
+              fill="none"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-size="none"
+              style="mix-blend-mode: normal"
+            >
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <path
+                  d="M0,25.8v17.2h172v-17.2zM0,77.4v17.2h172v-17.2zM0,129v17.2h172v-17.2z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+          <nav class="mobile-navigation">
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+              <li>
+                <a href="blog.html" class="active">Blog</a>
+              </li>
+              <li>
+                <a href="site-report.html">sitereport</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="blog">
+        <div class="blog-wrapper">
+          <div class="blog-item">
+            <div class="my-blog">
+              <div class="blog-thumbnail">
+                <img src="images/screenshot-1.png" alt="blog" />
+              </div>
+              <h1 class="blog-title">My first progress</h1>
+              <div class="blog-date">2022-04-14</div>
+              <p class="blog-content">
+                At first, i created header section containing navigation link
+                for all the required pages. The Header section is responsive
+                with hamburger appearing on the small device screen upto 768px
+                width. I have a simple footer with copyright text.
+              </p>
+              <p class="blog-content">
+                Next step was to create a homepage. My homepage consist of
+                simple introduction about myself along with my picture. The page
+                is also responsive to small screens.
+              </p>
+            </div>
+          </div>
+          <div class="blog-item">
+            <div class="my-blog">
+              <div class="blog-thumbnail">
+                <img src="images/screenshot-2.png" alt="blog" />
+              </div>
+              <h1 class="blog-title">My second progress</h1>
+              <div class="blog-date">2022-04-14</div>
+              <p class="blog-content">
+                My next progress is about creating the portfolio and contact
+                section. Contact section incldes a dummy contact address, a form
+                which inputs user's email, fullname.
+              </p>
+              <p class="blog-content">
+                Portfolio page consist list of my portfolio. It consists 6
+                portfolio item. All of them are arranged using css columns.
+              </p>
+            </div>
+          </div>
+          <div class="blog-item">
+            <div class="my-blog">
+              <div class="blog-thumbnail">
+                <img src="images/blogg.jpg" alt="blog" />
+              </div>
+              <h1 class="blog-title">My third progress</h1>
+              <div class="blog-date">2022-04-15</div>
+              <p class="blog-content">
+                My third progress includes the blog page itself. The blog page
+                consis title, date, image and content for the blog. The blog
+                page is also arranded using the css columns. This page consist
+                three blog items explaining the progress.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <span>@ copyright Bishal Khatiwada</span>
+      </footer>
+    </div>
+  </body>
+</html>
